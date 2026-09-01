@@ -1,4 +1,5 @@
 import json
+import os
 
 with open("input/inputTxt.txt") as f:
   lines = f.readlines()
@@ -14,6 +15,7 @@ for line in lines:
     result[key] = value
 
 
+os.makedirs("intermediateData", exist_ok=True)
 with open("intermediatesData/splitKey.json", 'w') as f:
   json.dump(result, f, indent=4)
 
