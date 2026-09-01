@@ -14,7 +14,7 @@ for line in lines:
     result[key] = value
 
 
-with open("intermediatesData/splitKey.json") as f:
+with open("intermediatesData/splitKey.json", 'w') as f:
   json.dump(result, f, indent=4)
 
 
