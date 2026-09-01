@@ -1,6 +1,6 @@
 import json
 
-with open("../inputTxt.txt") as f:
+with open("../input/inputTxt.txt") as f:
   lines = f.read()
 
 result = dict()
