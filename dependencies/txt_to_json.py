@@ -1,6 +1,6 @@
 import json
 
-with open("../input/inputTxt.txt") as f:
+with open("input/inputTxt.txt") as f:
   lines = f.read()
 
 result = dict()
@@ -14,7 +14,7 @@ for line in lines:
 result[key] = value
 
 
-with open("../intermediatesData/splitKey.json") as f:
+with open("intermediatesData/splitKey.json") as f:
   json.dump(result, f, indent=4)
 
 
