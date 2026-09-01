@@ -1,0 +1,11 @@
+For key "data1", the value is "1".
+
+For key "data2", the value is "2".
+
+For key "data3", the value is "3".
+
+For key "val1", the value is "1".
+
+For key "add1", the value is "indiePop".
+
+For key "val2", the value is "0".
