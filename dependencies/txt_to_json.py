@@ -6,7 +6,7 @@ with open("input/inputTxt.txt") as f:
 result = dict()
 
 
-for line in lines:]
+for line in lines:
   if ":" in line:
     splitLine = line.split(":")
     key = splitLine[0].strip()
